@@ -1,0 +1,25 @@
+button[disabled] {
+    cursor: unset;
+    background-color: #ddaa336b;
+}
+
+button.buttonActive {
+    background-color: #ddaa33;
+}
+
+button.buttonActive:hover {
+    background-color: #ddaa33e0 !important;
+}
+
+.loginBg {
+    background: url('/public/bg.png');
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: round;
+}
+
+@media (max-width: 425px) {
+    .loginBg {
+        background-repeat: no-repeat;
+    }}

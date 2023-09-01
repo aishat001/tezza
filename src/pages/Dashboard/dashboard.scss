@@ -1,0 +1,14 @@
+.loan-cal {
+  background: url("../../assets/images/Loan-cal-bg.png") center/cover no-repeat;
+}
+
+@media (prefers-color-scheme: "dark") {
+  .dashboard {
+    &-overview {
+      color: white !important;
+    }
+  }
+  .dashboard .MuiDivider-root {
+    background-color: #cacaca;
+  }
+}
