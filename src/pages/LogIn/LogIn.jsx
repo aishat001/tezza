@@ -82,7 +82,9 @@ const LoginIn = () => {
             <Input type='email' disableUnderline
               sx={{
                 border: '1px solid black',
-                width: '100%'
+                width: '100%',
+                pl : 1
+
               }}
               name='email'
               value={formData.email}
@@ -97,7 +99,8 @@ const LoginIn = () => {
             <Input type='password' disableUnderline
               sx={{
                 border: '1px solid black',
-                width: '100%'
+                width: '100%',
+                pl : 1
               }}
               name='password'
               value={formData.password}
