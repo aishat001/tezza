@@ -46,7 +46,7 @@ const LoginIn = () => {
     if (isValidEmail(email) && isValidPassword(password)) {
       localStorage.setItem('authenticated', 'true');
       
-      navigate('/worspace');
+      navigate('/workspace');
     } else {
       console.error('Authentication failed');
     }
@@ -68,7 +68,7 @@ const LoginIn = () => {
 
       <div className='loginBg w-[100%] h-[100vh] flex sm:justify-center sm:items-center'>
 
-        <form className='w-[100%] p-5 sm:p-10 sm:shadow-lg max-w-[500px] sm:w-[500px] sm flex flex-col gap-7 mt-20  m-auto bg-white' onSubmit={handleSubmit}>
+        <form className='w-[100%] p-5 sm:p-10 sm:shadow-lg max-w-[500px] sm:w-[500px] flex flex-col gap-7 mt-20  m-auto bg-white' onSubmit={handleSubmit}>
           <div className='flex flex-row items-center justify-between mb-3'>
             <div>
               <H2>Log In</H2>
