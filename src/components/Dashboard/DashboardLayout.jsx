@@ -58,6 +58,7 @@ export default function DashboardLayout() {
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },
           pt: '0.5rem',
+          boxShadow: 'none'
         }}
         className="bg-white shadow-none"
       >

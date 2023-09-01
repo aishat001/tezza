@@ -22,4 +22,5 @@ button.buttonActive:hover {
 @media (max-width: 425px) {
     .loginBg {
         background-repeat: no-repeat;
+        background-position: bottom;
     }}
